@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Jokes</title>
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid" style="margin-top: 200px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="display-4">Chuck Norris jokes!</h1>
+        <p class="lead" th:text="${Joke}">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+</body>
+</html>
